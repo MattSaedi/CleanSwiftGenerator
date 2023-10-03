@@ -25,7 +25,7 @@ struct ___VARIABLE_sceneName___DefaultConfigurator {
 extension ___VARIABLE_sceneName___DefaultConfigurator: ___VARIABLE_sceneName___Configurator {
     func configure(viewController: ___VARIABLE_sceneName___ViewController) -> ___VARIABLE_sceneName___ViewController {
         let presenter = ___VARIABLE_sceneName___Presenter(viewController: viewController)
-        let interactor = ___VARIABLE_sceneName___Interactor(worker: worker, presenter: presenter)
+        let interactor = ___VARIABLE_sceneName___Interactor(presenter: presenter, worker: worker)
         let router = ___VARIABLE_sceneName___Router(sceneFactory: sceneFactory, viewController: viewController)
         
         viewController.interactor = interactor
