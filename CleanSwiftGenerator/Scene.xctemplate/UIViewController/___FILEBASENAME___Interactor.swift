@@ -21,7 +21,7 @@ class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic,
     // MARK: - Initialize
     var presenter: ___VARIABLE_sceneName___PresentationLogic?
     var worker: ___VARIABLE_sceneName___WorkerLogic?
-    init(presenter: ___VARIABLE_sceneName___PresentationLogic,worker: ___VARIABLE_sceneName___WorkerLogic) {
+    init(presenter: ___VARIABLE_sceneName___PresentationLogic, worker: ___VARIABLE_sceneName___WorkerLogic) {
         self.presenter = presenter
         self.worker = worker
     }
